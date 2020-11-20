@@ -1,0 +1,71 @@
+:root
+{
+	--main-col: #F34A53;
+}
+
+*{
+	margin: 0;
+}
+
+
+
+#container
+{
+	width: 350px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{
+	margin-top: 30px;
+}
+
+header img
+{
+	width: 100%;
+	height: auto;
+}
+
+main
+{
+	margin-top: 30px;
+}
+
+
+
+/*Transparent arrows for input type number*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form_left_side
+{
+	width: 30%;
+	text-align: right;
+}
+
+.form_right_side
+{
+	width: 70%;
+}
+.form_right_side
+
+.error_label
+{
+	width: 100%;
+	color: var(--main-col);
+	text-align: center;
+}
+
+
+
+
